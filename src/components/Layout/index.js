@@ -1,5 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+
 import Sidebar from '../Sidebar'
 import './index.scss'
 
@@ -18,6 +19,7 @@ function Layout() {
           <span className='bottom-tag-html'>&lt;/html&gt;</span>
         </span>
       </div>
+    
     </div>
   )
 }
